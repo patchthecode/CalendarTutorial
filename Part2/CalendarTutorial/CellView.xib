@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CellView" customModule="CalendarTutorial" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="182" height="140"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Epu-kj-9Yw">
+                    <color key="backgroundColor" red="0.9882352941176471" green="0.792156862745098" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="XCd-gk-OEy"/>
+                        <constraint firstAttribute="height" constant="50" id="tfC-Yc-LeL"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MxM-rC-d9Q">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.22745098039215686" green="0.15686274509803921" blue="0.29803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Epu-kj-9Yw" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="BC7-B8-Nyx"/>
+                <constraint firstItem="MxM-rC-d9Q" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="JUg-QM-1ko"/>
+                <constraint firstItem="MxM-rC-d9Q" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="SfZ-d5-c7p"/>
+                <constraint firstItem="Epu-kj-9Yw" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="VBi-iq-Zdi"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="dayLabel" destination="MxM-rC-d9Q" id="I4y-gp-o2R"/>
+                <outlet property="selectedView" destination="Epu-kj-9Yw" id="L7J-5o-8Jc"/>
+            </connections>
+            <point key="canvasLocation" x="-221" y="105"/>
+        </view>
+    </objects>
+</document>
