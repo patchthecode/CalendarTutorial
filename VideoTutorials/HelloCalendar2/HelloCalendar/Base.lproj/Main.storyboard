@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Ib Data Source-->
+        <!--Ib Calendar Data Source-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HelloCalendar" customModuleProvider="target" sceneMemberID="viewController">
@@ -59,8 +59,8 @@
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
-                                    <outlet property="ibDataSource" destination="BYZ-38-t0r" id="xSG-r7-xMX"/>
-                                    <outlet property="ibDelegate" destination="BYZ-38-t0r" id="h5g-SA-ngB"/>
+                                    <outlet property="ibCalendarDataSource" destination="BYZ-38-t0r" id="K6A-Dw-aim"/>
+                                    <outlet property="ibCalendarDelegate" destination="BYZ-38-t0r" id="zyn-KR-i3X"/>
                                 </connections>
                             </collectionView>
                         </subviews>
