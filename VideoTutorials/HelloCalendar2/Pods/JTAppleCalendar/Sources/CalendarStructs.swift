@@ -154,9 +154,7 @@ struct Month {
     // Return the total number of day cells
     // to generate for the represented month
     var numberOfDaysInMonthGrid: Int {
-        get {
-            return numberOfDaysInMonth + inDates + outDates
-        }
+        return numberOfDaysInMonth + inDates + outDates
     }
 
     var startSection: Int {

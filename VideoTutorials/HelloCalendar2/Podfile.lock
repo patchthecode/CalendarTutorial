@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   JTAppleCalendar:
-    :commit: 5f60c381f22a6314a0cea090bc54ddb8321f08ae
+    :commit: f3071fa694b2f42780e7dd61ef0ce34dad45b19e
     :git: https://github.com/patchthecode/JTAppleCalendar.git
 
 SPEC CHECKSUMS:

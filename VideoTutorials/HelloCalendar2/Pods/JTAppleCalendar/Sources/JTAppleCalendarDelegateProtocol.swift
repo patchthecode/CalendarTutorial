@@ -11,6 +11,7 @@ protocol JTAppleCalendarDelegateProtocol: class {
     var isCalendarLayoutLoaded: Bool {get}
     var cellSize: CGFloat {get set}
     var cachedConfiguration: ConfigurationParameters! {get set}
+    var calendarDataSource: JTAppleCalendarViewDataSource? {get set}
     var scrollDirection: UICollectionViewScrollDirection! {get set}
     var monthInfo: [Month] {get set}
     var monthMap: [Int: Int] {get set}

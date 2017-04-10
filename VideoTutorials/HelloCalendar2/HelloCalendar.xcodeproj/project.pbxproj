@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6B7026261E976A2F009506CA /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7026251E976A2F009506CA /* CustomCell.swift */; };
+		6BAB2C401E9AAF6800FF125F /* imageSwitch.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BAB2C3F1E9AAF6800FF125F /* imageSwitch.png */; };
 		6BD20ADE1E86D8CF008A761C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD20ADD1E86D8CF008A761C /* AppDelegate.swift */; };
 		6BD20AE01E86D8CF008A761C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD20ADF1E86D8CF008A761C /* ViewController.swift */; };
 		6BD20AE31E86D8CF008A761C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD20AE11E86D8CF008A761C /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		222FDE71710B9C8C9ABDC550 /* Pods-HelloCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCalendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloCalendar/Pods-HelloCalendar.debug.xcconfig"; sourceTree = "<group>"; };
 		2FF0EF0E08CEE46656224DF2 /* Pods-HelloCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCalendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloCalendar/Pods-HelloCalendar.release.xcconfig"; sourceTree = "<group>"; };
 		6B7026251E976A2F009506CA /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		6BAB2C3F1E9AAF6800FF125F /* imageSwitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageSwitch.png; sourceTree = "<group>"; };
 		6BD20ADA1E86D8CF008A761C /* HelloCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BD20ADD1E86D8CF008A761C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BD20ADF1E86D8CF008A761C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 		6BD20AD11E86D8CF008A761C = {
 			isa = PBXGroup;
 			children = (
+				6BAB2C3F1E9AAF6800FF125F /* imageSwitch.png */,
 				6BD20ADC1E86D8CF008A761C /* HelloCalendar */,
 				6BD20ADB1E86D8CF008A761C /* Products */,
 				EDB513372C1D1D2ABB507DC2 /* Pods */,
@@ -153,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BAB2C401E9AAF6800FF125F /* imageSwitch.png in Resources */,
 				6BD20AE81E86D8CF008A761C /* LaunchScreen.storyboard in Resources */,
 				6BD20AE51E86D8CF008A761C /* Assets.xcassets in Resources */,
 				6BD20AE31E86D8CF008A761C /* Main.storyboard in Resources */,

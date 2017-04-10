@@ -9,7 +9,7 @@
 /// The header view class of the calendar
 open class JTAppleCollectionReusableView: UICollectionReusableView {
     /// Initializes and returns a newly allocated view object with the specified frame rectangle.
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
     }
 
